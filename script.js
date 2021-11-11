@@ -10,6 +10,7 @@ const desc = document.getElementById('desc-profit');
 
 const count = () => {
 
+	profit.value = '?';
 	const dValue = date.value;
 	if (!dValue) return 'Пожалуйста, выберите дату';
 
