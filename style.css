@@ -138,7 +138,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-	.search-container, .actions-container {
+	.search-container, .actions-container, .collapse {
 		flex-wrap: wrap;
 	}
 	.search-container, .actions-container > * {
