@@ -2,7 +2,9 @@
 <html lang="ru">
 	<head>
 		<title>Модуль 1</title>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css" />
+		<script defer src="script.js"></script>
 	</head>
 	<body>
 		<header class="flex wrap items-center">
@@ -36,29 +38,29 @@
 				<div class="flex">
 					<div class="card">
 						<div class="showcase">
-							<input type="date" /> 
+							<input type="date" id="calc-date" /> 
 						</div>
 						<div class="card-info">
 							<h1>Выберите дату</h1>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit saepe voluptatibus dolorem. In, illum facilis.</p>
+							<p>Вы получите больше баллов за заказ билетов на позднее время.</p>
 						</div>
 					</div>
 					<div class="card">
 						<div class="showcase">
-							<input type="number" /> 
+							<input type="number" id="calc-amount" value="1" /> 
 						</div>
 						<div class="card-info">
 							<h1>Выберите кол-во билетов</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In et ut omnis accusantium dolorem, voluptatem qui aperiam ipsum repudiandae id.</p>
+							<p>Купите несколько билетов сразу и получите за это баллы.</p>
 						</div>
 					</div>
 					<div class="card">
 						<div class="showcase">
-							<input disabled type="number" /> 
+							<input disabled type="number" id="calc-profit" /> 
 						</div>
 						<div class="card-info">
-							<h1>Вот ваша выгода</h1>
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium excepturi cumque aliquam ullam facilis quibusdam! Consectetur, beatae. Deleniti.</p>
+							<h1>Баллы</h1>
+							<p id="desc-profit">Выберите дату и количество билетов, чтобы посчитать количество баллов.</p>
 						</div>
 					</div>
 				</div>
