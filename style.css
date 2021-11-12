@@ -25,9 +25,11 @@ html, body, input {
 }
 
 header {
+	border-top: 4px solid rgb(35, 211, 255);
 	border-bottom: 1px solid #cecece;
 	background: linear-gradient(180deg, rgb(255, 255, 255), rgb(230, 230, 230));
-	position: sticky; top: 0;
+	position: sticky;
+	top: 0;
 }
 
 a {
@@ -124,6 +126,23 @@ footer {
 	background-position: center;
 	background-size: cover;
 	height: 20vh;
+}
+
+.actions-container  {
+	border-radius: 0.25rem;
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgb(35, 211, 255);
+	}
+	70% {
+		box-shadow: 0 0 0 32px rgba(99, 237, 255, 0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgba(60, 226, 255, 0);
+	}
 }
 
 @media (max-width: 512px) {
