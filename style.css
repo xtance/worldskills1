@@ -62,11 +62,12 @@ nav > *, .test-0-logo {
 }
 
 #welcome {
-	background-color: rgb(176, 255, 229);
+	background-color: rgb(166, 249, 255);
 	text-align: center;
 	border-radius: 0.25rem;
 	padding: 1rem;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	animation: pulse 5s infinite;
 }
 
 .card {
@@ -138,7 +139,7 @@ footer {
 		box-shadow: 0 0 0 0 rgb(35, 211, 255);
 	}
 	70% {
-		box-shadow: 0 0 0 32px rgba(99, 237, 255, 0);
+		box-shadow: 0 0 0 16px rgba(99, 237, 255, 0);
 	}
 	100% {
 		box-shadow: 0 0 0 0 rgba(60, 226, 255, 0);
