@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Модуль 1</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="order.css" />
+		<script defer src="order.js"></script>
+	</head>
+	<body>
+		<header class="flex wrap items-center">
+			<div class="test-0-logo">
+				<span id="logo1">White</span>
+				<span>×</span>
+				<span id="logo2">Tickets</span>
+			</div>
+			<nav>
+				<a class="test-0-nav-1" href="actions.html">Акции</a>
+				<a class="test-0-nav-2" href="search.html">Поиск</a>
+				<a class="test-0-nav-3" href="profile.html">Личный кабинет</a>
+			</nav>
+		</header>
+		<section>
+
+			<article id="welcome">
+				<h1>Подтверждение заказа</h1>
+			</article>
+
+			<h1>Данные вашего заказа:</h1>
+			<form class="flex wrap">
+				<div class="test-5-fc">
+					<div class="label">Номер билета</div class="label">
+					<input readonly="readonly" value="111" />
+				</div>
+				<div class="test-5-fcity">
+					<div class="label">Город</div class="label">
+					<input readonly="readonly" value="СПб" />
+				</div>
+				<div class="test-5-from">
+					<div class="label">Концерт</div class="label">
+					<input readonly="readonly" value="Название концерта" />
+				</div>
+
+				<div class="test-5-dd">
+					<div class="label">Дата</div class="label">
+					<input readonly="readonly" value="11.11.2021" />
+				</div>
+				
+				<div class="test-5-dt">
+					<div class="label">Время</div class="label">
+					<input readonly="readonly" value="1:20" />
+				</div>
+
+				<div class="test-5-tcity">
+					<div class="label">Время начала концерта</div class="label">
+					<input readonly="readonly" value="11:11" />
+				</div>
+				<div class="test-5-to">
+					<div class="label">Время конца концерта</div class="label">
+					<input readonly="readonly" value="11:12" />
+				</div>
+				<div class="test-5-fc">
+					<div class="label">Кол-во оставшихся билетов</div class="label">
+					<input readonly="readonly" value="111" />
+				</div>
+
+				<div class="test-5-fp">
+					<div class="label">Стоимость</div class="label">
+					<input readonly="readonly" value="111" />
+				</div>
+		
+
+			</form>
+
+			<article style="width: 100%">
+				<h1>Покупатели</h1>
+				<div id="buyers">
+					<div class="buyer" style="background-color: aquamarine;">
+						<div class="test-5-name">Имя</div>
+						<div class="test-5-last">Фамилия</div>
+						<div class="test-5-dob">Дата рождения</div>
+						<div class="test-5-doc">Номер документа</div>
+						<div>Удаление</div>
+					</div>
+					
+				</div>
+				<button onclick="getInfo()" class="test-5-add">Добавить покупателя</button>
+			</article>
+			
+			<article>
+				<h1 class="test-5-price">Финальная стоимость: 123456 руб.</h1>
+				<button onclick="" class="test-5-book">Оформить</button>
+			</article>
+
+
+		</section>
+	</body>
+</html>
